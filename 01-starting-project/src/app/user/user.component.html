@@ -2,7 +2,7 @@
   <!-- Event Listener and Event Binding -->
   <button (click)="onSelectUser()">
     <!-- Property binding -->
-    <img [src]="imagePath()" [alt]="selectedUser().name" />
-    <span>{{ selectedUser().name }}</span>
+    <img [src]="imagePath" [alt]="name" />
+    <span>{{ name }}</span>
   </button>
 </div>
